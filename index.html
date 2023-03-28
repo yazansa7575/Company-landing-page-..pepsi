@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./image/icon.png" sizes="16x16 32x32">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>pepsi</title>
+</head>
+<body>
+    <header class="header1">
+        <nav>
+            <div class="logo">
+                <a href="./">
+                    <img src="./image/logo.png" alt="">
+                </a>
+            </div>
+            <div class="list">
+                <ul>
+                    <a href="./"><li>VIEW PRODUCTS </li></a>
+                    <a href="./"><li>WHAT'S NEW</li></a>
+                    <a href="./"><li>NEWSLETTER </li></a>
+                    <a href="./"><li>CONTACT US </li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header class="header2">
+        <nav class="navbar  m-0 " style="width: 100%;background-color: rgba(255, 253, 253, 0.128);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./image/logo.png" alt="" width="110px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="background-color: rgba(255, 255, 255, 0.383);box-shadow: none; ">
+                <span class="navbar-toggler-icon" style="outline: none;border: none;"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background:linear-gradient(180deg, #e32934, #004883);">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title d-flex justify-content-center align-items-center w-100 " id="offcanvasNavbarLabel">
+                        <a class="navbar-brand" href="#">
+                            <img src="./image/logo.png" alt="" width="150px">
+                        </a>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center align-items-center gap-3" style="font-size: 18px;">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">VIEW PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">WHAT'S NEW</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">NEWSLETTER</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="containerMe ">
+        <section class="contentTowDivs ">
+            <div class="leftDiv ">
+                <div style="margin-bottom: 2%;">
+                    <h3>THAT's WHAT 
+                        <h1>
+                            I LIKE
+                        </h1>
+                    </h3>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorem praesentium reiciendis quod iusto molestiae minima, a cumque. Magnam consequatur porro soluta cupiditate architecto illum voluptas, iusto quo repellendus quae?
+                    </p>
+                </div>
+                <div>
+                    <a class="btn" href="javascript:void(0)">
+                        <span>BY PEPSI PRODUCTS </span>
+                        <div class="wave"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="rightDiv ">
+                <img  id="mainImage" draggable="false" src="./image/1.png" alt="">
+            </div>
+        </section>
+        <footer>
+            <div class="conteiner">
+                <div class="p1">
+                    <img  class="optionImg" src="./image/1.png" alt="">
+                </div>
+                <div class="p2">
+                    <img class="optionImg" src="./image/2.png" alt="">
+                </div>
+                <div class="p3">
+                    <img  class="optionImg"src="./image/3.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./main.js"> </script>
+</html>
